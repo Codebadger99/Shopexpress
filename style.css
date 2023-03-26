@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+#navbar {
+  background-color: rgb(182, 218, 222);
+}
+#nav {
+  margin: 0 auto;
+}
+
+#nav > li > a {
+  padding-left: 2em;
+}
+
+.content {
+  margin-left: 5em;
+}
+
+.content > p:nth-child(1) {
+  font-size: 1.599rem;
+}
+
+.content > p:nth-child(2) {
+  font-size: 1.298rem;
+}
+
+.backdrop {
+  background-color: hsl(186, 64%, 23%);
+  height: 90vh;
+  overflow: hidden;
+}
+
+#image {
+  width: 600px;
+  height: 640px;
+}
+
+#overflow {
+  overflow: hidden;
+}
+
+#overlay {
+  margin-top: 1em;
+  margin-left: 37em;
+}
+
+#overlay > h1 {
+  font-size: 5rem;
+}
+
+#overlay > p:nth-child(1) {
+  font-size: 3rem;
+}
+
+#text-5 {
+  font-size: 5rem;
+}
+
+#text-2 {
+  font-size: 3rem;
+}
+
+.content-img {
+  position: relative;
+  margin-top: 4em;
+  margin-left: 7em;
+}
+
+.content-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 4rem;
+  padding: 1em 2em;
+  margin-top: -2em;
+  margin-left: 6em;
+  position: relative;
+  z-index: 999;
+  color: white;
+  font-weight: 500;
+}
+
+.image-2 {
+  margin-left: 15em;
+  margin-top: -4em;
+}
+
+#Nike {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 200px;
+}
+
+.membership {
+  margin-top: 9em;
+}
+
+.background {
+  background-color: rgba(0, 125, 139, 1);
+  height: 600px;
+}
+
+.text {
+  width: 839px;
+  height: 48px;
+  text-transform: capitalize;
+  margin: 0 auto;
+  position: relative;
+  top: 10em;
+  color: #fff;
+}
+
+#footer {
+  background-color: rgba(246, 131, 95, 1);
+  max-width: 100%;
+  width: 500%;
+}
+
+@media screen and (max-width: 1199px) {
+  .responsive {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #overflow {
+    margin-top: 3em;
+  }
+}
+@media screen and (max-width: 991px) {
+  .fa-search {
+    display: none;
+  }
+
+  #overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  #overlay > h1 {
+    font-size: 12rem;
+  }
+}
+
+@media screen and (max-width: 911px) {
+  #overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  #overlay > h1 {
+    font-size: 12rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #Nike {
+    font-size: 180px;
+  }
+}
+
+@media screen and (max-width: 806px) {
+  #Nike {
+    font-size: 160px;
+  }
+}
+
+@media screen and (max-width: 733px) {
+  #Nike {
+    font-size: 130px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #Nike {
+    margin-bottom: 5em;
+    font-size: 90px;
+  }
+  .nike {
+    margin-top: 1em;
+  }
+
+  .nike-2 {
+    margin-bottom: 5em;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  #Nike {
+    margin-bottom: 5em;
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  #Nike {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 536px) {
+  #overlay > h1 {
+    font-size: 10rem;
+  }
+  #text-2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  #overlay > h1 {
+    font-size: 8rem;
+  }
+
+  #text-5 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 422px) {
+  #Nike {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  #text-2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 363px) {
+  #Nike {
+    font-size: 40px;
+  }
+}
